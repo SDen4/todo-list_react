@@ -13,8 +13,8 @@ export const List = ({ tasks }) => {
                         <small>{new Date().toLocaleDateString()}</small>
                     </div>
                     <button
-                        type="button"
-                        className="btn btn-outline-danger btn-sm"
+                        type='button'
+                        className='btn btn-outline-danger btn-sm'
                     >&times;</button>
                 </li>
             ))}

@@ -6,17 +6,17 @@ export const Navbar = () => (
         <div className='navbar-brand'>
             todo-list
         </div>
-        <ul className="navbar-nav">
-            <li className="nav-item">
+        <ul className='navbar-nav'>
+            <li className='nav-item'>
                 <NavLink
-                    className="nav-link"
+                    className='nav-link'
                     to='/'
                     exact
                 > Home </NavLink>
             </li>
-            <li className="nav-item">
+            <li className='nav-item'>
                 <NavLink
-                    className="nav-link"
+                    className='nav-link'
                     to='/about'
                 > About </NavLink>
             </li>
